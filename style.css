@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.App {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("https://image.flaticon.com/icons/png/512/124/124021.png");
+    display: flex;
+}
+
+.container {
+    margin: auto;
+    width: 600px;
+    background: #1da1f2;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    padding: 30px;
+    background: #1da1f2;
+    width: 100%;
+    height: 200px;
+    outline: none;
+    resize: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+textarea::placeholder {
+    color: #bdc1c9
+}
+
+.tweet {
+    align-self: flex-end;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    background: #1da1f2;
+    padding: 9px 18px;
+    border-radius: 50px;
+    margin: 16px;
+    transition: all 400ms ease-in-out;
+}
+
+.tweet:hover {
+    background: #1d8cd0;
+}
